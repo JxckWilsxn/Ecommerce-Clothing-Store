@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    
+    <title>Street Clothing Store</title>
+  </head>
+  <body>
+    
+    <section id="Home">
+      <header class="main-card">
+        
+        <nav id="navbar">
+          <div id="burger-icon"><img src="images/hamburger_menu_icon.png" alt="mobile-navbar" width="50px"></div>
+          <a class="nav-link" aria-current="page" href="#Home">Home</a>
+          <a class="nav-link" href="#Store">Store</a>
+          <a class="nav-link" href="#About" id="nav-about">About</a>
+          <a class="nav-link" href="#Reviews">Reviews</a>
+          <div id="store-cart" class="nav-link"><input type="image" src="images/cart-icon.png" alt="Cart" width="22px">
+            <div id="cart-item-count" class="cart-item-count">0</div>
+          </div>
+        </nav>
+        
+        <nav id="mobile-navbar">
+          <a class="nav-link-mobile" aria-current="page" href="#Home">Home</a>
+          <a class="nav-link-mobile" href="#Store">Store</a>
+          <a class="nav-link-mobile" href="#About" id="nav-about">About</a>
+          <a class="nav-link-mobile" href="#Reviews">Reviews</a>
+        </nav>
+
+        <div class="cart">
+          <button id="exit-cart-btn">Continue Shopping</button><button id="clear-cart-btn">Clear Cart</button>
+          <div id="cart-title"><h1>Your Cart</h1></div>
+          <div id="label"><h2>There is nothing in your cart at the moment.</h2></div>
+          
+          <div class="shopping-cart" id="shopping-cart">
+            <!-- Generate cart items here -->
+          </div>
+
+            <div id="seperation-line"></div>
+
+            <div id="cart-section">
+              <div class="cartFullTotal">
+                <ul class="cart-total">
+                  <div class="subtotal">
+                    <div id="subtotal-title">Subtotal:</div>
+                    <div id="subtotal-price">$0.00</div>
+                  </div>
+
+                  <div class="discount">
+                    <div id="discount-title">30% Discount:</div>
+                    <div id="discount-amount">-$0.00</div>
+                  </div>
+
+                  <div class="shipping">
+                    <div id="shipping-title">Shipping:</div>
+                    <div id="shipping-price">$5.99</div>
+                  </div>
+
+                  <div class="grand-total">
+                    <div id="grand-total-title">Grand total:</div>
+                    <div id="grand-total-price">$0.00</div>
+                  </div> 
+                </ul>
+              </div>
+              <button class="checkout-btn">CHECKOUT</button>
+            </div>
+        </div>
+
+        <h1 class="main-header">Fashion <br> <span id="beyond">Beyond</span> <br> All<span id="period">.</span></h1>
+        <h1 class="discount-text"><span id="thirty-off">30% Off</span> <br> <span id="first-order">First Order</span></h1>
+        <a href="#Store"><input type="button" value="Explore" id="landing-page-btn"></a>
+      </header>
+    </section>
+
+    <section id="Store">
+      
+      <h1 id="featured-heading">Out Now</h1>  <button id="store-next-mobile"><input type="image" img src="images/arrow_icon.png" class="btn-background" width="30px"></button><button id="store-prev-mobile"><input type="image" img src="images/arrow_icon.png" class="btn-background" width="30px"></button>
+
+      <div class="store-carousel-container">
+        
+        <div id="carousel-store-item-slider">
+
+          <button class="prev"><input type="image" img src="images/arrow_icon.png" class="btn-background" width="50px"></button>
+
+          <div id="store-items">
+           <!-- Generate store items here -->
+          </div>
+          
+          <button class="next"><input type="image" img src="images/arrow_icon.png" class="btn-background" width="50px"></button>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="About">
+      <div class="custom-shape-divider-top">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+
+      <div class="about-container">
+        <h1 id="about-heading">Our Story</h1>
+        <p id="about-us-main-para">Welcome to [Your Store Name], where streetwear meets culture and creativity. <br><br> Born out of a passion for self-expression, we started with a simple idea: to create bold, timeless designs inspired by urban life and street culture. From the bustling streets to the skate parks, our brand reflects the energy, diversity, and individuality of the community that inspires us. <br><br> Every piece we create combines premium quality with style, ensuring you look and feel your best no matter where life takes you. At [Your Store Name], we’re more than just a brand—we’re a movement. Join us as we redefine streetwear and celebrate the culture that makes us who we are.</p>
+        <div class="about-gallery-grid-container">
+          <img src="images/about-us-img2.png" alt="" id="main-about-img">
+          <img src="images/about-us-img-mobile.png" alt="" id="main-about-mobile-img">
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+      </div>
+    </section>
+
+    <section id="Reviews">
+      <div class="reviews-section">
+        <h1>Reviews</h1>
+        <p>Still not convinced? Hear what <span style="color: rgb(226, 43, 43);">others</span> have said.</p>
+      </div>
+      <div id="review-carousel-background">
+        <div class="review-carousel-container">
+          <div id="carousel-review-item-slider">
+            <div class="review-slides">
+              <div class="review-card">
+                <div id="user-profile-picture"><img src="images/reviewer-img-1.jpg"></div>
+                <div id="user-name"><h2>John Doe</h2></div>
+                <div id="review-stars"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"></div>
+                <div id="review-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iste reiciendis illum tenetur.</p></div>
+              </div>
+            </div>
+
+            <div class="review-slides">
+              <div class="review-card">
+                <div id="user-profile-picture"><img src="images/reviewer-img-2.jpg"></div>
+                <div id="user-name"><h2>Diego Hernández</h2></div>
+                <div id="review-stars"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"></div>
+                <div id="review-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iste reiciendis illum tenetur.</p></div>
+              </div>
+            </div>
+
+            <div class="review-slides">
+              <div class="review-card">
+                <div id="user-profile-picture"><img src="images/reviewer-img-3.jpg"></div>
+                <div id="user-name"><h2>Eric Anderson</h2></div>
+                <div id="review-stars"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"></div>
+                <div id="review-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iste reiciendis illum tenetur.</p></div>
+              </div>
+            </div>
+
+            <div class="review-slides">
+              <div class="review-card">
+                <div id="user-profile-picture"><img src="images/reviewer-img-4.jpg"></div>
+                <div id="user-name"><h2>Kristoff Johansen</h2></div>
+                <div id="review-stars"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"></div>
+                <div id="review-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iste reiciendis illum tenetur.</p></div>
+              </div>
+            </div>
+
+            <div class="review-slides">
+              <div class="review-card">
+                <div id="user-profile-picture"><img src="images/reviewer-img-5.jpg"></div>
+                <div id="user-name"><h2>Jane Smith</h2></div>
+                <div id="review-stars"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"></div>
+                <div id="review-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iste reiciendis illum tenetur.</p></div>
+              </div>
+            </div>
+
+            <div class="review-slides">
+              <div class="review-card">
+                <div id="user-profile-picture"><img src="images/reviewer-img-6.jpg"></div>
+                <div id="user-name"><h2>Lee Aquino</h2></div>
+                <div id="review-stars"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"><img src="images/star-icon.webp"></div>
+                <div id="review-text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iste reiciendis illum tenetur.</p></div>
+              </div>
+            </div>
+          </div>
+          <button class="control reviews-prev"><input type="image" img class="hovered-triangle" src="images/triangle-filled-left.png" width="50px"><img class="original-triangle" src="images/triangle-left.png" width="50px"></button>
+          <button class="control reviews-next"><input type="image" img class="hovered-triangle" src="images/triangle-filled-right.png" width="50px"><img class="original-triangle" src="images/triangle-right.png" width="50px"></button>
+
+          <button class="control reviews-prev-mobile"><input type="image" img class="hovered-triangle" src="images/triangle-filled-left.png" width="50px"><img class="original-triangle" src="images/triangle-left.png" width="50px"></button>
+          <button class="control reviews-next-mobile"><input type="image" img class="hovered-triangle" src="images/triangle-filled-right.png" width="50px"><img class="original-triangle" src="images/triangle-right.png" width="50px"></button>
+        </div>
+        
+      </div>
+    </section>
+
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-heading footer-1">
+          <h2>Quick Links</h2>
+          <a href="#Home">Home</a>
+          <a href="#Store">Store</a>
+          <a href="#About">About</a>
+          <a href="#Reviews">Reviews</a>
+        </div>
+        <div class="footer-heading footer-2">
+          <h2>Store Items</h2>
+          <a href="#">Hats</a>
+          <a href="#">T-Shirts</a>
+          <a href="#">Jeans</a>
+          <a href="#">Shoes</a>
+        </div>
+        <div class="footer-heading footer-3">
+          <h2>Follow Us</h2>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">X/Twitter</a>
+          <a href="#">Youtube</a>
+        </div>
+        <div class="footer-email-form">
+          <h2>Join our newsletter</h2>
+          <input type="email" placeholder="Enter your email address" id="footer-email">
+          <input type="submit" value="Sign Up" id="footer-email-btn">
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
