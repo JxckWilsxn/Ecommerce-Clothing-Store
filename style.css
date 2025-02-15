@@ -979,6 +979,11 @@ body, html {
 
     #thirty-off {
         padding: 0px 22px;
+        top: 0rem;
+    }
+
+    #first-order {
+        top: 0.5rem;
     }
 
     #landing-page-btn {
@@ -1263,6 +1268,11 @@ body, html {
 
     #thirty-off {
         padding: 0px 13.5px;
+        top: 0rem;
+    }
+
+    #first-order {
+        top: 0.5rem;
     }
 
     #landing-page-btn {
