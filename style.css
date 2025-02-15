@@ -908,6 +908,97 @@ body, html {
     transition: all 0.4s ease-out;
 }
 
+/* HD Desktop */
+@media only screen and (min-width : 1920px) {
+    
+    .main-header {
+        font-size: 200px;
+        top: 14vh;
+    }
+
+    #landing-page-btn {
+        font-size: 50px;
+        width: 300px;
+        height: 90px;
+        top: 75vh;  
+        right: 18.5vh; 
+    }
+
+    #store-cart .cart-item-count {
+        width: 15px;
+        height: 15px;
+        left: 62.2%;
+        bottom: 50%;
+    
+        font-size: 12px;
+    }
+
+    .cart {
+        width: 34vw;
+    }
+
+    /*////////// Nav Bar //////////*/
+
+    #featured-heading {
+        font-size: 34px;
+        margin: 10rem 50rem 0rem 0rem;
+    }
+}
+
+/* 4K Desktop/TV */
+
+@media only screen and (min-width : 3840px) {
+
+    /*////////// Nav Bar //////////*/
+
+    #navbar {
+        height: 200px;
+    }
+
+    .nav-link {
+        margin: 4.4rem 4rem;
+        text-decoration: none; 
+        font-size: 40px;
+    }
+    
+    .main-header {
+        font-size: 420px;
+        top: 14vh;
+    }
+
+    #landing-page-btn {
+        font-size: 100px;
+        width: 600px;
+        height: 180px;
+        top: 80vh;  
+        right: 16.2vh; 
+    }
+
+    .discount-text {
+        left: 3rem;
+        font-size: 200px;
+    }
+    
+    #thirty-off {
+        padding: 0px 58.5px;
+        top: 64rem;
+    }
+    
+    #first-order {
+        padding: 5px;
+        top: 65rem;
+    }
+
+
+    /*////////// Nav Bar //////////*/
+
+    #featured-heading {
+        font-size: 44px;
+        margin: 10rem 49rem 0rem 0rem;
+    }
+
+}
+
 @media screen and (max-width: 1150px) {
     .footer {
         height: 50vh;
