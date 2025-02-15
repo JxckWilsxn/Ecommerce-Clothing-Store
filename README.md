@@ -1,9 +1,9 @@
 # Ecommerence-Clothing-Store
 
 ## Description
-This is a e-commerence project made by myself that demonstrates both vanilla CSS and vanilla Javascript skills.
+This is an e-commerce project made by myself that demonstrates both vanilla CSS and vanilla JavaScript skills.
 
-The clothing store allows the user to browse items, and reviews, as well as be able to add items to the cart. The cart will add all the items  together to calculate the total price along with the discount deduction and shipping cost applied.
+The clothing store allows the user to browse items and reviews, as well as be able to add items to the cart. The cart will add all the items together to calculate the total price along with the discount deduction and shipping cost applied.
 
 ## Images of the project
 *The full webpage can be viewed below:*
