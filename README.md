@@ -13,4 +13,5 @@ The clothing store allows the user to browse items and reviews, as well as be ab
 
 *Demo of an item in the cart:*
 ![image](https://github.com/user-attachments/assets/93bd8bae-9a60-4013-8d01-630c79a83f9b)
-![image](https://github.com/user-attachments/assets/3a3c373a-7583-4273-aefe-7ed424eb0b0a)
+![image](https://github.com/user-attachments/assets/bc7f3951-35dd-4267-84d0-1adec084100c)
+
