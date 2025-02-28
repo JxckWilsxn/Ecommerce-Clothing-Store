@@ -1155,6 +1155,10 @@ body, html {
         display: none;
     }
 
+    .store-item-card:hover .store-item-info-container {
+        bottom: -150px;
+    }
+
     .store-item-info-container.visibility {
         bottom: 0;
     }
@@ -1461,6 +1465,10 @@ body, html {
         display: none;
     }
 
+    .store-item-card:hover .store-item-info-container {
+        bottom: -150px;
+    }
+
     .store-item-info-container.visibility {
         bottom: 0;
     }
@@ -1597,6 +1605,10 @@ body, html {
 
     #cart-title {
         font-size: 30px;
+    }
+
+    .store-item-card:hover .store-item-info-container {
+        bottom: -150px;
     }
 
     #footer-email {
