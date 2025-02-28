@@ -1155,7 +1155,7 @@ body, html {
         display: none;
     }
 
-    .store-item-card:hover .store-item-info-container {
+    .store-item-card:hover {
         display: none;
     }
 
@@ -1465,7 +1465,7 @@ body, html {
         display: none;
     }
 
-    .store-item-card:hover .store-item-info-container {
+    .store-item-card:hover {
         display: none;
     }
 
@@ -1607,7 +1607,7 @@ body, html {
         font-size: 30px;
     }
 
-    .store-item-card:hover .store-item-info-container {
+    .store-item-card:hover {
         display: none;
     }
 
