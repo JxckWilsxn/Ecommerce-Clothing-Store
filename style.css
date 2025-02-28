@@ -1155,10 +1155,6 @@ body, html {
         display: none;
     }
 
-    .store-item-card:hover {
-        display: none;
-    }
-
     .store-item-info-container.visibility {
         bottom: 0;
     }
@@ -1465,10 +1461,6 @@ body, html {
         display: none;
     }
 
-    .store-item-card:hover {
-        display: none;
-    }
-
     .store-item-info-container.visibility {
         bottom: 0;
     }
@@ -1605,10 +1597,6 @@ body, html {
 
     #cart-title {
         font-size: 30px;
-    }
-
-    .store-item-card:hover {
-        display: none;
     }
 
     #footer-email {
