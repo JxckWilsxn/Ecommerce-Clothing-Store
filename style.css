@@ -1156,9 +1156,8 @@ body, html {
     }
 
     .store-item-card:hover .store-item-info-container {
-        bottom: -150px;
+        display: 0;
     }
-
     .store-item-info-container.visibility {
         bottom: 0;
     }
@@ -1466,7 +1465,7 @@ body, html {
     }
 
     .store-item-card:hover .store-item-info-container {
-        bottom: -150px;
+        display: 0;
     }
 
     .store-item-info-container.visibility {
@@ -1608,7 +1607,7 @@ body, html {
     }
 
     .store-item-card:hover .store-item-info-container {
-        bottom: -150px;
+        display: 0;
     }
 
     #footer-email {
