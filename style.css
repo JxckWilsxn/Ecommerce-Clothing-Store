@@ -921,8 +921,8 @@ body, html {
         font-size: 50px;
         width: 300px;
         height: 90px;
-        top: 75vh;  
-        right: 18.5vh; 
+        top: 80vh;  
+        right: 21vh; 
     }
 
     #store-cart .cart-item-count {
