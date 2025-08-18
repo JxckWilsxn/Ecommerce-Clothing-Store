@@ -1,4 +1,4 @@
-# Ecommerce-Clothing-Store
+# Beyond Street Apparel Ecommerce-Clothing-Store
 
 ## Description
 This is an e-commerce project made by myself that demonstrates both vanilla CSS and vanilla JavaScript skills.
